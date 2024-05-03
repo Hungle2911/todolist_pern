@@ -1,6 +1,6 @@
 -- CREATE DATABASE perntodo;
-
-CREATE TABLE todo(
+DROP TABLE IF EXISTS todo;
+CREATE TABLE todos(
   id SERIAL PRIMARY KEY,
-  description VARCHAR(255)
+  note VARCHAR(255)
 );
